@@ -1,0 +1,180 @@
+/* ======== COLORS ============== */
+:root{
+    --background-color: hsl(226, 43%, 10%);
+    --dark-blue: hsl(235, 45%, 15%);
+    --lighter-blue: hsl(235, 45%, 25%);
+    --pale-blue: hsl(246, 79%, 60%);
+}
+
+/* ======== LAYOUTS ============= */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--background-color);
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    width: 100vw;
+    height: 100vh;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* =============== REUSABLES =================== */
+.rounded{
+    border-radius: 20px;
+    border: none;
+}
+
+.grid{
+    display: grid;
+    gap: 1.5rem;
+}
+
+
+
+
+
+main{
+    max-width: 980px;
+    margin: 6rem 30px;
+}
+
+.profile_card{
+    background-color: var(--dark-blue);
+    display: flex;
+    flex-direction: column;
+}
+
+.profile{
+    background-color: var(--pale-blue);
+    padding: 30px;
+    grid-template-columns: 1.2fr 3fr;
+    align-items: center;
+}
+
+.profile_image img{
+    border: 4px solid #fff;
+    border-radius: 50%;
+}
+
+.report p:first-of-type{
+    padding: 2px;
+}
+
+.report p:last-of-type{
+    font-size: 24px;
+    text-transform: capitalize;
+}
+
+.interval{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.interval p{
+    cursor: pointer;
+    transition: all .4s ease;
+}
+
+.interval p.active,
+.interval p:hover,
+.task i:hover{
+    opacity: 1;
+    font-weight: 450;
+}
+
+/* =========== TRACKING CARDS ============ */
+.management{
+    position: relative;
+}
+
+.task_container{
+    height: 200px;
+    display: flex;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.task_container.work{
+    background: hsl(15, 100%, 70%) url(./images/icon-work.svg) no-repeat;
+}
+
+.task_container.play{
+    background: hsl(195, 74%, 62%) url(./images/icon-play.svg) no-repeat;
+}
+
+.task_container.study{
+    background: hsl(348, 100%, 68%) url(./images/icon-study.svg) no-repeat;
+}
+
+.task_container.exercise{
+    background: hsl(145, 58%, 55%) url(./images/icon-exercise.svg) no-repeat;
+}
+
+.task_container.social{
+    background: hsl(264, 64%, 52%) url(./images/icon-social.svg) no-repeat;
+}
+
+.task_container.selfcare{
+    background: hsl(43, 84%, 65%) url(./images/icon-self-care.svg) no-repeat;
+}
+
+.task_card{
+    height: 75%;
+    width: 100%;
+    padding: 0 20px;
+    align-self: flex-end;
+    background-color: var(--dark-blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    transition: .3s;
+    transition-property: background-color;
+}
+
+.task_card:hover{
+    background-color: var(--lighter-blue);
+}
+
+.task{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 0;
+}
+
+.task i{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.time{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.report p:first-of-type,
+.task i,
+.interval p,
+.time p:last-of-type{
+    opacity: 0.5;
+}
+
+
+.current{
+    font-size: 30px;
+}

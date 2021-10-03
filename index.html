@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!-- GOOGLE FONT CDN -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <!--  BOX ICON CDN -->
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  
+  <!-- CUSTOM STYLE SHEET -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media.css">
+
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <main class="grid">
+    <div class="profile_card rounded">
+      <div class="profile rounded grid">
+        <div class="profile_image">
+          <img src="./images/image-jeremy.png" alt="Profile image">
+        </div>
+        <div class="report">
+          <p>Report for</p>
+          <p>Jeremy Robson</p>
+        </div>
+      </div>
+
+      <div class="interval">
+        <p class="">Daily</p>
+        <p class="active">Weekly</p>
+        <p class="">Monthly</p>
+      </div>
+    </div>
+
+    <div class="management grid">
+
+      <!-- WORK -->
+      <div class="task_container work ">
+        <div class="task_card rounded">
+          <div class="task">
+            <p class="title"></p>
+            <i class='bx bx-dots-horizontal-rounded'></i>
+          </div>
+          <div class="time">
+            <p class="current">32hrs</p>
+            <p class="previous">Last Week - <span class="previous">5hrs</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- PLAY -->
+      <div class="task_container play ">
+        <div class="task_card rounded">
+          <div class="task">
+            <p class="title"></p>
+            <i class='bx bx-dots-horizontal-rounded'></i>
+          </div>
+          <div class="time">
+            <p class="current">10hrs</p>
+            <p class="previous">Last Week - <span class="previous">8hrs</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- STUDY -->
+      <div class="task_container study ">
+        <div class="task_card rounded">
+          <div class="task">
+            <p class="title"></p>
+            <i class='bx bx-dots-horizontal-rounded'></i>
+          </div>
+          <div class="time">
+            <p class="current">4hrs</p>
+            <p class="previous">Last Week - <span class="previous">7hrs</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- EXCERCISE -->
+      <div class="task_container exercise ">
+        <div class="task_card rounded">
+          <div class="task">
+            <p class="title"></p>
+            <i class='bx bx-dots-horizontal-rounded'></i>
+          </div>
+          <div class="time">
+            <p class="current">4hrs</p>
+            <p class="previous">Last Week - <span class="previous">5hrs</span></p>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- SOCIAL -->
+      <div class="task_container social ">
+        <div class="task_card rounded">
+          <div class="task">
+            <p class="title"></p>
+            <i class='bx bx-dots-horizontal-rounded'></i>
+          </div>
+          <div class="time">
+            <p class="current">5hrs</p>
+            <p class="previous">Last Week - <span class="previous">10hrs</span></p>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- SELF CARE -->
+      <div class="task_container selfcare ">
+        <div class="task_card rounded">
+          <div class="task">
+            <p class="title"></p>
+            <i class='bx bx-dots-horizontal-rounded'></i>
+          </div>
+          <div class="time">
+            <p class="current">2hrs</p>
+            <p class="previous">Last Week - <span class="previous">2hrs</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+  
+  
+  
+
+  
+   <!-- 5hrs daily -->
+  <!-- Previous - 7hrs  daily -->
+  <!--32hrs  weekly -->
+  <!-- Previous - 36hrs weekly -->
+  <!-- 103hrs monthly -->
+  <!-- Previous - 128hrs monthly -->
+
+  <!-- Play -->
+  <!-- 1hr daily -->
+  <!-- Previous - 2hrs daily -->
+  <!-- 10hrs weekly -->
+  <!-- Previous - 8hrs weekly -->
+  <!--  23hrs monthly -->
+  <!-- Previous - 29hrs monthly -->
+
+  <!-- Study -->
+  <!-- 0hrs daily -->
+  <!-- Previous - 1hr daily -->
+  <!-- 4hrs weekly -->
+  <!-- Previous - 7hrs weekly -->
+  <!-- 13hrs monthly -->
+  <!-- Previous - 19hrs monthly -->
+
+  <!-- Exercise -->
+  <!--  1hr daily -->
+  <!-- Previous - 1hr daily -->
+  <!-- w4hrs eekly -->
+  <!-- Previous - 5hrs weekly -->
+  <!-- 11hrs monthly -->
+  <!-- Previous - 18hrs monthly -->
+
+  <!-- Social -->
+  <!-- 1hr daily -->
+  <!-- Previous - 3hrs daily -->
+  <!-- 5hrs weekly -->
+  <!-- Previous - 10hrs weekly -->
+  <!-- 21hrs monthly -->
+  <!-- Previous - 23hrs monthly -->
+
+  <!-- Self Care -->
+  <!-- 0hrs daily -->
+  <!-- Previous - 1hr daily -->
+  <!-- 2hrs weekly -->
+  <!-- Previous - 2hrs weekly -->
+  <!-- 7hrs monthly -->
+  <!-- Previous - 11hrs monthly -->
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Excel Bill</a>.
+  </div>
+
+
+  <script src="./main.js"></script>
+</body>
+</html>
