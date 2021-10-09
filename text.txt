@@ -1,0 +1,71 @@
+ PLAY
+      <div class="task_container play ">
+        <div class="task_card rounded">
+          <div class="task">
+            <p class="title"></p>
+            <i class='bx bx-dots-horizontal-rounded'></i>
+          </div>
+          <div class="time">
+            <p class="current">10hrs</p>
+            <p class="previous">Last Week - <span class="previous">8hrs</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- STUDY -->
+      <div class="task_container study ">
+        <div class="task_card rounded">
+          <div class="task">
+            <p class="title"></p>
+            <i class='bx bx-dots-horizontal-rounded'></i>
+          </div>
+          <div class="time">
+            <p class="current">4hrs</p>
+            <p class="previous">Last Week - <span class="previous">7hrs</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- EXCERCISE -->
+      <div class="task_container exercise ">
+        <div class="task_card rounded">
+          <div class="task">
+            <p class="title"></p>
+            <i class='bx bx-dots-horizontal-rounded'></i>
+          </div>
+          <div class="time">
+            <p class="current">4hrs</p>
+            <p class="previous">Last Week - <span class="previous">5hrs</span></p>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- SOCIAL -->
+      <div class="task_container social ">
+        <div class="task_card rounded">
+          <div class="task">
+            <p class="title"></p>
+            <i class='bx bx-dots-horizontal-rounded'></i>
+          </div>
+          <div class="time">
+            <p class="current">5hrs</p>
+            <p class="previous">Last Week - <span class="previous">10hrs</span></p>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- SELF CARE -->
+      <div class="task_container selfcare ">
+        <div class="task_card rounded">
+          <div class="task">
+            <p class="title"></p>
+            <i class='bx bx-dots-horizontal-rounded'></i>
+          </div>
+          <div class="time">
+            <p class="current">2hrs</p>
+            <p class="previous">Last Week - <span class="previous">2hrs</span></p>
+          </div>
+        </div>
+      </div>

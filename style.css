@@ -60,7 +60,7 @@ main{
 }
 
 .profile_image img{
-    border: 4px solid #fff;
+    /* border: 4px solid #fff; */
     border-radius: 50%;
 }
 
@@ -106,27 +106,27 @@ main{
     border-bottom-left-radius: 30px;
 }
 
-.task_container.work{
+.task_container.Work{
     background: hsl(15, 100%, 70%) url(./images/icon-work.svg) no-repeat;
 }
 
-.task_container.play{
+.task_container.Play{
     background: hsl(195, 74%, 62%) url(./images/icon-play.svg) no-repeat;
 }
 
-.task_container.study{
+.task_container.Study{
     background: hsl(348, 100%, 68%) url(./images/icon-study.svg) no-repeat;
 }
 
-.task_container.exercise{
+.task_container.Exercise{
     background: hsl(145, 58%, 55%) url(./images/icon-exercise.svg) no-repeat;
 }
 
-.task_container.social{
+.task_container.Social{
     background: hsl(264, 64%, 52%) url(./images/icon-social.svg) no-repeat;
 }
 
-.task_container.selfcare{
+.task_container.SelfCare{
     background: hsl(43, 84%, 65%) url(./images/icon-self-care.svg) no-repeat;
 }
 
