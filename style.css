@@ -1,7 +1,7 @@
 /* ======== COLORS ============== */
 :root{
     --background-color: hsl(226, 43%, 10%);
-    --dark-blue: hsl(235, 45%, 15%);
+    --dark-blue: hsl(235, 50%, 20%);
     --lighter-blue: hsl(235, 45%, 25%);
     --pale-blue: hsl(246, 79%, 60%);
 }
