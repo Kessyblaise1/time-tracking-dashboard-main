@@ -33,8 +33,8 @@ Users will be able to:
 ![](./screenshot.png)
 
 
-- Solution URL: (https://github.com/Kessyblaise1/time-tracking-dashboard-main)
-- Live Site URL: https://expresstimetracker.netlify.app)
+- Solution URL: [frontend mentor](https://github.com/Kessyblaise1/time-tracking-dashboard-main)
+- Live Site URL: [express time tracker](https://expresstimetracker.netlify.app)
 
 ## My process
 -First, I carefully thought out the building process after lookin at the design file.
