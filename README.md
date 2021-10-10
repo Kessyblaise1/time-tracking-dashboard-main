@@ -74,4 +74,4 @@ I will love to continue working with APIs to further sharppen my skills and impr
 
 - Website - [Excel](https://excelbill.netlify.app)
 - Frontend Mentor - [@kessyblaise1](https://www.frontendmentor.io/profile/kessyblaise1)
-- Twitter - [@yourusername](https://www.twitter.com/excel_bill)
+- Twitter - [@excel_bill](https://www.twitter.com/excel_bill)
